@@ -1,3 +1,53 @@
+# 🚀 UiPath Dispatcher – ACME System 1 (Work Item 4)  
+
+## 📌 Description  
+This project implements the **Dispatcher** part of the REFramework for the **ACME System 1** automation.  
+The Dispatcher is responsible for logging into ACME System 1, retrieving all **Work Item 4 (WI4)** records, and exporting them into an Excel file.  
+These records will later be used by the **Performer** to generate yearly reports and update the system.  
+
+---
+
+## 🎯 Goal  
+- Automate the process of collecting **WI4 items** from ACME System 1  
+- Store all retrieved items into an **Excel file** for further processing  
+
+---
+
+## 🛠️ Tools & Technologies  
+- [UiPath Studio](https://www.uipath.com/product/studio)  
+- UiPath Excel Activities  
+- UiPath UI Automation Activities  
+- REFramework Template  
+
+---
+
+## ⚙️ Workflow Steps  
+1. **Log in** to ACME System 1 using credentials (email + password).  
+2. **Navigate** to the Dashboard and open **Work Items**.  
+3. **Extract all records** of type **WI4**.  
+4. **Write the extracted records** into an Excel file.  
+5. End process.  
+
+---
+
+
+
+## ▶️ How to Run  
+1. Open the solution in **UiPath Studio**.  
+2. Configure credentials for ACME System 1 in **Orchestrator Assets** or local Config.  
+3. Run the **Dispatcher**.  
+4. After completion, check `Data/WI4Items.xlsx` for the exported work items.  
+
+---
+
+## 📖 Learning Outcomes  
+- Using REFramework for Dispatcher workflows  
+- Automating web navigation with dynamic selectors  
+- Extracting structured data from web applications  
+- Writing business data into Excel for downstream automation  
+
+---
+
 ### Documentation is included in the Documentation folder ###
 
 
