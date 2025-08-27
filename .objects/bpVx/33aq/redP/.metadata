@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New application",
+  "Type": "Screen",
+  "Id": "redPlh7590KGk-7ylXXprA",
+  "Reference": "IoLlHGIHD0SEWaJNXWj_1Q/redPlh7590KGk-7ylXXprA",
+  "ParentRef": "IoLlHGIHD0SEWaJNXWj_1Q/33aqJipaekO2dVVPQxQusg",
+  "Created": "2025-08-20T11:01:05.7580193Z",
+  "Updated": "2025-08-20T11:01:05.7580193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
